@@ -1,0 +1,29 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+solc-version = "0.8.24"
+optimizer = true
+optimizer_runs = 100
+
+rpc-url = "http://localhost:8545"
+
+chain-id = 1
+
+no-rpc-rate-limit = true
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
+
+remmappings = [
+    "ds-test/=lib/forge-std/lib/ds-test/src/",
+    "forge-std/=lib/forge-std/src/",
+    "solmate/=lib/solmate/src/",
+    "solady/=lib/solady/src/",
+    "test/=test/",
+    "src/=src/",
+    "interfaces/=src/interfaces/",
+    "mock/=test/mock/",
+    "utils/=test/utils/",
+    "actor/=test/actor/",
+]
