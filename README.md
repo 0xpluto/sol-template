@@ -1,3 +1,6 @@
+# Solidity Template
+
+This is a template
 
 ## Developer Guide
 
